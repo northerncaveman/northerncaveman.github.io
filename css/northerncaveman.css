@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('/images/dark-denim-texture.png') top left repeat;`    
+}
+
+#container {    
+    width: 600px;   
+    /* min-width: fit-content; */
+    margin: 0 auto;
+}
+
+header {
+    color: yellow;  
+}
+
+header h1 {
+    /* background: green url('../images/dark-denim-texture.png') top left repeat; */
+    border-radius: 25px;  /* Rounded corners */
+    padding: 10px 0 10px 0px;
+    text-align: center;
+    color: yellow;
+}
+
+header h4 {
+    text-align: end;
+    color: yellow;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    border: 0.5px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.1);  
+}
+
+#container {
+    width: 760px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: black;
+    border: 0.5px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0 300px 0;
+    border-style: solid;
+    border-color: green;
+    border: 0.5px;
+}
+
+header h1 {
+    display: inline;
+    
+}
+
+#logo {
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+header h3 { 
+    text-align: end;
+    border-style: solid;
+    border-color: green;
+    border: 0.5px;
+
+}

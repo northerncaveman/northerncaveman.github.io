@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*
+
+Author:  Northern Caveman
+Date:  2023-06-04
+
+Filename:  fakefitness.css
+
+*/
+
+
+html { 
+    /* HSL - Hue, Saturation and Lightness.  Fairly new method of controlling colour.  0 = Red.  120 = Green.  270 = Blue. */
+    background-color: hsl(27, 72%, 72%);
+}
+
+body { 
+    color: RBG(91,91,91);  
+    background-color: ivory;
+}
+
+h1, h2 {
+    font-family: Quicksand, Verdana, Geneva, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+h1 { font-size: 2.2em;}
+h2 { font-size: 1.5em;}
+
+h1 { 
+    color: white;
+    background-color: rgb(235,177,131);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url('Quicksand-Regular.woff') format('woff'), 
+         url('Quicksand-Regular.ttf') format('truetype'), 
+}
+
+aside blockquote {
+    color:rgb(232,165,116);
+}
+
+nav > ul {
+    line-height: 2em;
+}
+
+
+body > footer {
+    background-color: rgb(222,128,60);
+    color: rbga(255,255,255,0.7);
+    font: normal small-caps bold 0.9em/3em
+    Quicksand, Verdana, Geneva, sans-serif;
+    text-align: center;
+    
+}

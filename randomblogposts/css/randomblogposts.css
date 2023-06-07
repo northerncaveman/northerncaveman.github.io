@@ -1,0 +1,41 @@
+:root {
+    --mulberry: #8a3562;
+    --awesome-dark: #050D21;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+      width: 800px;
+  }
+  
+  #container {
+
+      margin: 0 auto;
+  }
+
+  header { 
+    background-color: var(--awesome-dark);
+    color:  white;
+    text-align:  center;
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+
+  .blog-post h3 {
+    color:white;
+    background-color:  var(--mulberry);
+    width: 100px;
+    padding: 2px;
+    margin-bottom: 10px;
+  }
+
+  /* for all blog posts, starting from the 2nd on, add 10px between it and the one above */
+  .blog-post:nth-child(n+1) {
+    margin-top: 10px;
+  }
